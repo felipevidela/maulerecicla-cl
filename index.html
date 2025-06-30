@@ -31,7 +31,7 @@
     </header>
 
     <!-- 2. Sección Principal (Hero Section) - ACTUALIZADA CON TU IMAGEN DE PORTADA -->
-    <section id="inicio" class="relative bg-cover bg-center h-[600px]" style="background-image: url('/Valle-del-Maule_1.jpg');">
+    <section id="inicio" class="relative bg-cover bg-center h-[600px]" style="background-image: url('Valle-del-Maule_1.jpg');">
         <div class="absolute inset-0 bg-black opacity-40"></div>
         <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
             <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4">Transformando los Residuos del Maule en Recursos.</h1>
@@ -104,11 +104,11 @@
              <div class="grid md:grid-cols-2 gap-8">
                  <div class="shadow-lg rounded-lg overflow-hidden">
                      <h3 class="text-xl font-semibold p-3 bg-white">Recorrido en Talca</h3>
-                     <img src="/1.png" alt="Mapa del recorrido en Talca" class="w-full h-auto">
+                     <img src="1.png" alt="Mapa del recorrido en Talca" class="w-full h-auto">
                  </div>
                  <div class="shadow-lg rounded-lg overflow-hidden">
                      <h3 class="text-xl font-semibold p-3 bg-white">Recorrido Comunas Cercanas</h3>
-                     <img src="/2.png" alt="Mapa del recorrido en comunas cercanas a Talca" class="w-full h-auto">
+                     <img src="2.png" alt="Mapa del recorrido en comunas cercanas a Talca" class="w-full h-auto">
                  </div>
              </div>
         </div>
@@ -151,8 +151,43 @@
     </section>
 
 
+    <!-- NUEVA SECCIÓN: Formulario de Contacto -->
+    <section id="contacto" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-4">¿Tienes Preguntas? Contáctanos</h2>
+                <p class="text-gray-600 mb-8">Completa el siguiente formulario para solicitar tu recolección o para enviarnos tus dudas. Nuestro equipo se pondrá en contacto contigo a la brevedad.</p>
+            </div>
+            <form class="max-w-2xl mx-auto bg-gray-50 p-8 rounded-lg shadow-md border border-gray-200">
+                <div class="grid md:grid-cols-2 gap-6 mb-6">
+                    <div>
+                        <label for="nombre" class="block text-gray-700 font-bold mb-2">Nombre Completo</label>
+                        <input type="text" id="nombre" name="nombre" class="w-full p-3 bg-white rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Ej: Juan Pérez" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700 font-bold mb-2">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" class="w-full p-3 bg-white rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Ej: juan.perez@email.com" required>
+                    </div>
+                </div>
+                <div class="mb-6">
+                    <label for="asunto" class="block text-gray-700 font-bold mb-2">Asunto</label>
+                    <input type="text" id="asunto" name="asunto" class="w-full p-3 bg-white rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Ej: Consulta sobre recolección en mi empresa" required>
+                </div>
+                <div class="mb-6">
+                    <label for="mensaje" class="block text-gray-700 font-bold mb-2">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" class="w-full p-3 bg-white rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-500" placeholder="Escribe tu consulta aquí..." required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-green-500 text-white font-bold py-3 px-8 rounded-full hover:bg-green-600 transition duration-300 text-lg">
+                        Enviar Mensaje
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
     <!-- 8. Pie de Página (Footer) -->
-    <footer id="contacto" class="bg-gray-800 text-white pt-12 pb-6">
+    <footer id="footer" class="bg-gray-800 text-white pt-12 pb-6">
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-4 gap-8 mb-8">
                 <div>
