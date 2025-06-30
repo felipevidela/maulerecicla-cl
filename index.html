@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maule Recicla | Valorización de Residuos en el Maule</title>
+    <!-- Incluyendo Tailwind CSS para el diseño -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Opcional: Incluyendo FontAwesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+    <!-- 1. Barra de Navegación (Header) -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <div class="text-2xl font-bold text-green-600">
+                <i class="fa-solid fa-leaf"></i> Maule Recicla
+            </div>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#inicio" class="text-gray-600 hover:text-green-600">Inicio</a>
+                <a href="#como-funciona" class="text-gray-600 hover:text-green-600">¿Cómo Funciona?</a>
+                <a href="#para-empresas" class="text-gray-600 hover:text-green-600">Para Empresas</a>
+                <a href="#noticias" class="text-gray-600 hover:text-green-600">Noticias</a>
+                <a href="#contacto" class="text-gray-600 hover:text-green-600">Contacto</a>
+            </div>
+            <a href="#solicitar" class="bg-green-500 text-white font-bold py-2 px-4 rounded-full hover:bg-green-600 transition duration-300">
+                ¡Solicita tu Recolección!
+            </a>
+        </nav>
+    </header>
+
+    <!-- 2. Sección Principal (Hero Section) - ACTUALIZADA CON TU IMAGEN DE PORTADA -->
+    <section id="inicio" class="relative bg-cover bg-center h-[600px]" style="background-image: url('/Valle-del-Maule_1.jpg');">
+        <div class="absolute inset-0 bg-black opacity-40"></div>
+        <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4">Transformando los Residuos del Maule en Recursos.</h1>
+            <p class="text-lg md:text-xl max-w-3xl mb-8">
+                Únete al nuevo programa <strong>gratuito</strong> de recolección y valorización de residuos para hogares y empresas. Juntos, por una región más limpia y sostenible.
+            </p>
+            <div>
+                <a href="#solicitar" class="bg-green-500 text-white font-bold py-3 px-6 rounded-full text-lg hover:bg-green-600 transition duration-300 mr-4">Solicita tu Retiro Ahora</a>
+                <a href="#rutas" class="bg-white text-green-600 font-bold py-3 px-6 rounded-full text-lg hover:bg-gray-200 transition duration-300">Ver Puntos de Recolección</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Sección: Nuestro Propósito -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-12">Una Solución Integral para Nuestra Región</h2>
+            <div class="grid md:grid-cols-3 gap-12">
+                <!-- Contenido basado en el Business Model Canvas -->
+                <div class="flex flex-col items-center">
+                    <div class="text-5xl text-green-500 mb-4"><i class="fa-solid fa-truck-fast"></i></div>
+                    <h3 class="text-xl font-bold mb-2">Recolección Gratuita</h3>
+                    <p class="text-gray-600">Facilitamos el reciclaje recogiendo tus residuos en la puerta de tu casa o negocio, sin costo para ti.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="text-5xl text-green-500 mb-4"><i class="fa-solid fa-tree"></i></div>
+                    <h3 class="text-xl font-bold mb-2">Restauración de Espacios</h3>
+                    <p class="text-gray-600">Limpiamos microbasurales y recuperamos espacios públicos, mejorando la calidad de vida de tu comunidad.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="text-5xl text-green-500 mb-4"><i class="fa-solid fa-recycle"></i></div>
+                    <h3 class="text-xl font-bold mb-2">Economía Circular</h3>
+                    <p class="text-gray-600">Transportamos los residuos a empresas especializadas que los convierten en nuevos productos, impulsando la industria local.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Sección: ¿Cómo Funciona? -->
+    <section id="como-funciona" class="py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-12">Empezar a reciclar es muy fácil</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Proceso basado en el Business Model Canvas -->
+                <div class="p-6">
+                    <div class="text-5xl font-extrabold text-green-200 mb-4">1</div>
+                    <h3 class="text-xl font-bold mb-2">Regístrate</h3>
+                    <p class="text-gray-600">Crea tu cuenta en nuestro portal en menos de 2 minutos. La inscripción te permite acceder a todos nuestros servicios.</p>
+                </div>
+                <div class="p-6">
+                    <div class="text-5xl font-extrabold text-green-200 mb-4">2</div>
+                    <h3 class="text-xl font-bold mb-2">Separa tus Residuos</h3>
+                    <p class="text-gray-600">Te entregamos guías claras y sencillas para que sepas qué y cómo reciclar. ¡Te ayudamos en cada paso!</p>
+                </div>
+                <div class="p-6">
+                    <div class="text-5xl font-extrabold text-green-200 mb-4">3</div>
+                    <h3 class="text-xl font-bold mb-2">Agenda tu Recolección</h3>
+                    <p class="text-gray-600">A través de tu cuenta, solicita el retiro de tus reciclables o pide un contenedor para tu comunidad o empresa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Sección: Mapa de Rutas (ACTUALIZADA CON TUS IMÁGENES) -->
+    <section id="rutas" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+             <h2 class="text-3xl font-bold mb-4">¡Ya estamos cubriendo la Región!</h2>
+             <p class="max-w-3xl mx-auto mb-8 text-gray-600">Explora nuestras rutas de recolección en Talca y las comunas cercanas. A continuación, puedes ver un mapa de nuestros recorridos actuales, demostrando nuestro compromiso con un Maule más limpio.</p>
+             
+             <div class="grid md:grid-cols-2 gap-8">
+                 <div class="shadow-lg rounded-lg overflow-hidden">
+                     <h3 class="text-xl font-semibold p-3 bg-white">Recorrido en Talca</h3>
+                     <img src="/1.png" alt="Mapa del recorrido en Talca" class="w-full h-auto">
+                 </div>
+                 <div class="shadow-lg rounded-lg overflow-hidden">
+                     <h3 class="text-xl font-semibold p-3 bg-white">Recorrido Comunas Cercanas</h3>
+                     <img src="/2.png" alt="Mapa del recorrido en comunas cercanas a Talca" class="w-full h-auto">
+                 </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- 6. Sección: Una Solución para Todos -->
+    <section id="para-empresas" class="py-16">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="bg-green-50 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-3">Para Hogares y Comunidades</h3>
+                    <p class="mb-4 text-gray-600">Organízate con tus vecinos y solicita contenedores para tu villa o condominio. Un barrio limpio es un barrio más feliz y seguro para todos.</p>
+                    <a href="#" class="text-green-600 font-bold hover:underline">Más Info para Juntas de Vecinos &rarr;</a>
+                </div>
+                <div class="bg-blue-50 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold mb-3">Para Empresas y PYMES</h3>
+                    <p class="mb-4 text-gray-600">Optimiza la gestión de tus residuos sin costo. Al unirte, tu empresa no solo cumple con normativas, sino que proyecta una imagen de compromiso con la región.</p>
+                    <a href="#" class="text-blue-600 font-bold hover:underline">Ver Beneficios para tu Empresa &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 7. Sección de Socios y Credibilidad -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-6 text-center">
+             <h3 class="text-2xl font-bold text-gray-800 mb-6">Un Proyecto Comprometido con el Maule</h3>
+             <div class="flex justify-center items-center space-x-8 md:space-x-12">
+                <!-- Logos de los socios del Business Model Canvas -->
+                <div class="text-center text-gray-500">
+                    <p class="font-semibold">Apoyado por:</p>
+                    <p class="font-bold text-lg">Gobierno Regional del Maule</p>
+                </div>
+                <div class="text-center text-gray-500">
+                     <p class="font-semibold">Iniciativa de:</p>
+                     <p class="font-bold text-lg">INACAP</p>
+                </div>
+             </div>
+        </div>
+    </section>
+
+
+    <!-- 8. Pie de Página (Footer) -->
+    <footer id="contacto" class="bg-gray-800 text-white pt-12 pb-6">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Maule Recicla</h4>
+                    <p class="text-gray-400">Transformando residuos en recursos para una región más sostenible.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Servicios</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Recolección para Hogares</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Soluciones para Empresas</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Puntos Limpios</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Ayuda</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Preguntas Frecuentes</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contacto</a></li>
+                        <li class="text-gray-400">Línea de Ayuda: 600-123-4567</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-lg mb-3">Síguenos</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white text-2xl"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-2xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-2xl"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 text-center pt-6">
+                <p class="text-gray-500">&copy; 2025 Maule Recicla. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
